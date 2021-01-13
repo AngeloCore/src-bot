@@ -36,8 +36,6 @@ client.on("message", async message => {
   if (command) {
     command.run(client, message, args, prefix, config);
   }
-
-  if (!command) message.reply('s')
   
 });
 

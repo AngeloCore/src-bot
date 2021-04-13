@@ -26,7 +26,7 @@ client.on("message", async message => {
   
   if (!message.member) message.member = await message.guild.fetchMember(message); //bug bruuuh
 
-  let args = message.content.slice(prefix.length).trim().split(/ +/g); //the args IF YOU HAVE A ERROR GO TO github.com/AngeloCore/src-bot AND COPY THE FILES
+  let args = message.content.slice(prefix.length).trim().split(/ +/g); //the args IF YOU HAVE A ERROR GO TO GLITCH.COM/~SRC-TESTER AND COPY THE FILES
 
   let cmd = args.shift().toLowerCase(); //the cmd
 
